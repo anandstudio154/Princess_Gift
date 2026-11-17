@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diddii ke Rajya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- PAGE 1: WELCOME -->
+    <section class="page active" id="page1">
+        <div class="sparkles">✧ ✦ ✧</div>
+        <div class="crown">👑</div>
+
+        <p class="subtitle">Ek shahi celebration</p>
+        <h1>Happy Princess Day,<br><span>Didiii🥳</span></h1>
+
+        <p class="description">
+            Aaj hamar Didi shree ke maharani roop ke baat hoi😁
+        </p>
+
+        <button class="main-btn" onclick="showPage(2)">
+            Rajya me prasthan kiya jaaye ✨
+        </button>
+
+        <div class="flowers">🌸 🦋 🌷 🦋 🌸</div>
+    </section>
+
+    <!-- PAGE 2: THE PRINCESS -->
+    <section class="page" id="page2">
+        <p class="subtitle">CUTEST GALLERY AAJ TAK KE</p>
+        <h1>MAHARANI KE DARSHAN 💗</h1>
+
+        <div class="gallery">
+            <div class="photo-card">
+                <img src="images/kshama1.jpg" alt="Kshama">
+                <p>PARAM SUNDARI 😏</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="images/kshama2.jpg" alt="Kshama">
+                <p>DIDDDIII RANIII🎉</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="images/kshama3.jpg" alt="Kshama">
+                <p>SHAKTISHAALI DIDIII</p>
+            </div>
+        </div>
+
+        <div class="compliments">
+            <h2>Kuch roz na kahe wala baat🥲</h2>
+            <p>Duniye ke sabse cute aadmi hau tu😜</p>
+            <p>Itna sundar kayise ho gyilu😙</p>
+            <p>Chhotu sa dimag me bahut intelligence ba</p>
+        </div>
+
+        <button class="main-btn" onclick="showPage(3)">
+            Khul ja simsim
+        </button>
+    </section>
+
+    <!-- PAGE 3: THE SURPRISE -->
+    <section class="page" id="page3">
+        <p class="subtitle">Abhi to party shuru hui hai</p>
+        <h1>Kuch Surprise ❤️</h1>
+
+        <div class="envelope" onclick="openLetter()">
+            <div class="envelope-icon">💌</div>
+            <p>Khat khola jaaye</p>
+        </div>
+
+        <div class="letter" id="letter">
+            <h2>Priya Didi shree, 💗</h2>
+
+            <p>
+                Happy Princess Day hmr 
+                didduuuu keeee 🥳🎉🎉!
+            </p>
+
+            <p>
+                Hmr didduu sabse mahan insan hayi, cuteness me bhi,
+                sundarta me bhi aur dimaag me bhi.
+            </p>
+
+            <p>
+                Hamesha apan cute sa smile aur hasi rakhiha face par,
+                kabhi ek nm bhi kam na hokhe ke chahi.
+            </p>
+
+            <p>
+                Dher sara pyaar😌<br>
+                Tor Bhrata Shree😁
+            </p>
+        </div>
+
+        <h2 class="final-wish">
+            Hamesha hmr maharani🥳
+        </h2>
+
+        <button class="main-btn" onclick="showPage(1)">
+            Rajye me chala jaye
+        </button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
